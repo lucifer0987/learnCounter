@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: Asap, sans-serif;
+	color: white;
+}
+
+body{
+	background-color: #292C34;
+}
+
+header{
+	height: 60px;
+	text-align: center;
+	padding: 25px;
+	background-color: #6F7273;
+}
+
+.logo-heading{
+	font-size: 50px;
+	color: white;
+	display: inline;
+	font-weight: bold;
+	padding: 5px 10px;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+.logo-heading:hover{
+	background-color: white;
+	color: grey;
+}
+
+.container-main{
+	margin: 0 auto;
+	width: 70%;
+}
+
+.container-main .image{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container-main .image img{
+	height: 430px;
+	width: 75%;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.container-main .image img:hover{
+	height: 600px;
+	width: 90%;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.container-main .text p{
+	font-size: 24px;
+	margin-bottom: 10px;
+	padding: 15px;
+	border: 1px solid rgba(0,0,0,0.6);
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+	border-radius: 10px;
+	animation: all 0.3s ease;
+}
+
+.container-main .text p:hover{
+	font-size: 30px;
+	color: white;
+	margin-bottom: 10px;
+	padding: 15px;
+	border: 2px solid rgba(0,0,0,0.6);
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+	border-radius: 10px;
+}
+
+button{
+	background-color: white;
+	color: #292C34;
+	font-size: 26px;
+	padding:20px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: Asap;
+	font-weight: bold;
+	border:none;
+	box-shadow: none;
+	outline: none;
+	transition: all 0.3s ease;
+}
+
+button:hover{
+	background-color: #ACBA06;
+	color: white;
+}
+
+.link{
+	text-decoration: underline;
+}
+
+footer{
+	text-align: center;
+	margin: 30px;
+}
+

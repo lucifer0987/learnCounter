@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Page</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<a href="../index.html"><h1 class="logo-heading">Countdown Timer</h1></a>
+	</header>
+
+	<main>
+		<div class  = "body-text">
+			<p>Here, we will study the JS part of the project and then we will understand it together.</p>
+			<p>As earlier, on one side, the code is given and on the other side, output is given. </p>
+		</div>
+		<div class="container">
+			<div class = "item">
+				<div class="images">
+					<img class = "code" src="code1.png" alt="code">
+					<img class="explain" src="explain1.png" alt="output">
+				</div>
+				<div class="text">
+					<p>We need to add this script line to link JS file to the page.</p>
+					<p>And, create a file named app.js in the same directory.</p>
+				</div>
+			</div>
+			<div class = "item">
+				<div class="images">
+					<img class = "code" src="code2.png" alt="code">
+					<img class="explain" src="explain2.png" alt="output">
+				</div>
+				<div class="text">
+					<p>At first, we are prompting the user to enter a date in the specified format.</p>
+					<p>Then, we are checking if the entered data is null or not.</p>
+					<p>There is a getTime() function in js which calculates total milliseconds from January 1, 1970 to current date entered by user.</p>
+				</div>
+			</div>
+			<div class = "item">
+				<div class="images">
+					<img class = "code" src="code3.png" alt="code">
+					<img class="explain" src="explain3.png" alt="output">
+				</div>
+				<div class="text">
+					<p>Here, we will create a function which will be called at an interval of 1000 ms.</p>
+					<p>In this function, we will do all the calculations.</p>
+				</div>
+			</div>
+			<div class = "item">
+				<div class="images">
+					<img class = "code" src="code4.png" alt="code">
+					<img class="explain" src="explain4.png" alt="output">
+				</div>
+				<div class="text">
+					<p>With the help of now() function, we are getting the current time in milliseconds.</p>
+					<p>We are storing the difference between the entered time and curreent time in a variable in milliseconds.</p>
+				</div>
+			</div>
+			<div class = "item">
+				<div class="images">
+					<img class = "code" src="code5.png" alt="code">
+					<img class="explain" src="explain4.png" alt="output">
+				</div>
+				<div class="text">
+					<p>Now we will calulate the days and time with help of it.</p>
+					<p>With help of some basic mathematics and the floor() function in js, we are calculating days, hours, minutes and seconds left.</p>
+				</div>
+			</div>
+			<div class = "item">
+				<div class="images">
+					<img class = "code" src="code6.png" alt="code">
+					<img class="explain" src="explain4.png" alt="output">
+				</div>
+				<div class="text">
+					<p>Then at last, we are checking, if the difference greater than 0.</p>
+					<p>If the difference is greater than 0, then we are showing the difference in the p tag with id demo.</p>
+					<p>This function is called every 1000 ms, so its being updated every second.</p>
+					<p>If the difference is less than or equal to 0. It show Time's up.</p>
+				</div>
+			</div>
+		</div>
+		<div class="last-text">
+			<h2>And, now we have completed our app.</h2>
+			<h2>🎉🎉 Congratulations, you did it 🎉🎉</h2>
+		</div>
+	</main>
+
+	<footer>
+		<a href="https://lucifer0987.github.io/counter/" target="_blank"><button id="button">Lets go to app</button></a>
+	</footer>
+
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
