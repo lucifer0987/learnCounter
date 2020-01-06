@@ -82,6 +82,12 @@ header{
 	box-shadow: 1px 1px 6px #000;
 }
 
+.border-bottom{
+	border-bottom: 8px dashed lightgrey;
+	width: 73%;
+	margin: 40px auto;
+}
+
 .container .item .text{
 	margin-top: 20px;
 	text-align: center;

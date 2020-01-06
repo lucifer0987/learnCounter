@@ -54,9 +54,16 @@ header{
 	padding-bottom: 15px;
 	border-radius: 10px;
 	border: 1px solid #000;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	box-shadow: 1px 1px 6px #000;
 	background-color: lightgrey;
+	
+}
+
+.border-bottom{
+	border-bottom: 8px dashed lightgrey;
+	width: 73%;
+	margin: 40px auto;
 }
 
 .container .item .images {

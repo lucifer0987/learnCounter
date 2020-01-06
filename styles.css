@@ -70,6 +70,10 @@ header{
 	border-radius: 10px;
 }
 
+.container-main .text{
+	text-align: center;
+}
+
 .container-main .text p{
 	font-size: 24px;
 	margin-bottom: 10px;
